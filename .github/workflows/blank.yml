@@ -1,0 +1,12 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Welcome to Cloud and Automation Bootcamp"
+      - name: Print Goodluck
+        run: echo "All the Best"
+        
+    
